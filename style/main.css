@@ -1,0 +1,14 @@
+.text {
+    color: #020E35;
+    font-size: 97px;
+    margin-top: 80px;
+}
+
+.us {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+}
+
+.see {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
