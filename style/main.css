@@ -243,10 +243,11 @@ html {
 }
 .about .right {
   background-color: #f0f3fa;
-  height: 180px;
-  width: 90px;
-  border-top-right-radius: 90px;
-  border-bottom-right-radius: 90px;
+  height: 200px;
+  width: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  position: absolute;
 }
 .top {
   display: flex;
@@ -294,7 +295,6 @@ html {
   height: 100%;
   border-radius: 6px;
 }
-
 .modal .modal-body .btn-modal {
   background: var(--bg-gradient);
   color: var(--text-white);
@@ -303,6 +303,29 @@ html {
   border-radius: 8px;
   padding: 8px 2rem;
   margin-top: 1.5rem;
+}
+.about .title hr {
+  width: 100px;
+  color: #e73587;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.about .title h1 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #020e35;
+}
+.about .about-text {
+  position: relative;
+  /* bottom: 10rem; */
+}
+.about .deskripsi {
+  width: 65%;
+  margin: auto;
+}
+.list-unstyled .fw-bold {
+  color: #e73587;
+  font-size: 20px;
 }
 @media screen and (max-width: 700px) {
   .navbar .navbar-brand .box-logo {
@@ -395,5 +418,8 @@ html {
   .modal .modal-body .box-image-modal {
     width: 100%;
     height: 10rem;
+  }
+  .about {
+    margin-bottom: 0.5rem;
   }
 }
