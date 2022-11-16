@@ -1,0 +1,22 @@
+body {
+    font-family: 'Basic';
+}
+.container .title hr {
+    width: 100px;
+    height: 3px;
+    color: #E73587;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+.container .title h1 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #020E35;
+    
+}
+
+.list-unstyled .fw-bold{
+    color: #E73587;
+    font-size: 20px;
+}
